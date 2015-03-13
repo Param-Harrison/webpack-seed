@@ -1,0 +1,17 @@
+@import "bootstrap-variables";
+
+// Needs to be changed once building the application and serving through server, Have to figure out to automate this
+$asset-path: "http://localhost:8080"; 
+$font-regular: 400;
+$font-light: 300;
+$font-medium: 500;
+
+$icons-font-family : 'FontAwesome';
+
+
+$header-height: 55px;
+$top-gutter: 15px;
+
+//colors
+$text-primary-color: #354b60;
+$text-secondary-color: #7d8a95;

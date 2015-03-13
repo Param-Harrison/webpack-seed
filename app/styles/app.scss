@@ -1,0 +1,8 @@
+// Application styles 
+// compass libraries works with lib-sass
+@import '../lib/bower_components/compass-mixins/lib/compass',
+
+        'app-variables',
+
+        '../lib/bower_components/bootstrap-sass/assets/stylesheets/bootstrap',
+        '../lib/styles/modules/base';

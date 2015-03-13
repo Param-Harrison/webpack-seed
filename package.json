@@ -1,0 +1,38 @@
+{
+  "name": "webpack-angular-seed",
+  "version": "0.0.1",
+  "description": "Webpack angular seed",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack-dev-server --devtool eval --progress --colors --hot --content-base app"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "css-loader": "^0.9.1",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "^0.6.0",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "file-loader": "^0.8.1",
+    "html-loader": "^0.2.3",
+    "imports-loader": "^0.6.3",
+    "ngtemplate-loader": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^0.4.0-beta.1",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "lodash": "^3.3.1"
+  }
+}

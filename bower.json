@@ -1,0 +1,30 @@
+{
+  "name": "webpack-angular-seed",
+  "version": "0.0.1",
+  "authors": [
+    ""
+  ],
+  "description": "Webpack Angular project seed",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "=1.3.2",
+    "angular-messages": "=1.3.2",
+    "angular-ui-router": "=0.2.13",
+    "angular-bootstrap": "~0.12.1",
+    "angular-animate": "1.3.2",
+    "angular-aria": "~1.3.13",
+    "angular-resource": "~1.3.14"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.3",
+    "compass-mixins": "~1.0.2"
+  }
+}

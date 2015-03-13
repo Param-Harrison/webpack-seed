@@ -1,0 +1,9 @@
+<div class="container">
+	<p class="lead">This is main HTML.</p>
+	<tabset>
+		<tab ng-repeat="tab in tabs" heading="{{tab.heading}}" active="tab.active" select="go(tab.route)"></tab>
+			{{tab.content}}
+		</tab>
+	</tabset>
+	<div ui-view="main"></div>
+</div>
